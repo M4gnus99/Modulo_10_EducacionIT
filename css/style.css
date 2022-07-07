@@ -1,60 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans:wght@400;700&family=PT+Serif+Caption&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700;900&display=swap');
 
 body{
-    font-family: 'PT Serif Caption', serif;
+    font-family: 'Mulish', sans-serif;
 }
-a{
-    font-family: 'PT Mono', monospace;
-    font-size: 32px;
-    font-weight: 400;
-    color: #04146c;
-    text-decoration: none;
-}
-
 h1{
-    font-family: 'PT Serif Caption', serif;
-    font-size: 80px;
-    font-weight: 700;
-    color: #0a2ff1;
+    font-size: 53px;
+    font-weight: 900;
+    color: #04416c;
+    border-bottom: 2px solid;
 }
-p{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-    color: #04146c;
-}
-h2,ul { 
-    font-family: 'PT Sans', sans-serif;
-    font-size: 40px;
-    font-weight:700;
-    color: #04146c;
-}
-ul{
-    font-weight: 400;
+h2{
+    color:white; font-weight: 700; font-size:32px; margin:0; height: 100px; line-height: 100px;  text-align:center;background-color: #0a2ff1; width: 100%;
 }
 
-.activo{
-    font-weight: 700;
-    color: #0a2ff1;
-    margin-left: auto;
-}
-a::after { content:'/';}
-.activo::after { content:' ';}
-nav{
+/* Estilo de Tarjetas */
+main{
     display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
 }
-
-ul:first-of-type li:nth-child(1){
-    list-style-image: url(/img/vector.svg);
-}
-ul:first-of-type li:nth-child(2){
-    list-style-image: url(/img/foto.svg);
-}
-
-ul:nth-of-type(2) li:nth-child(1){
-    list-style-image: url(/img/licencia.svg);
-}
-ul:nth-of-type(2) li:nth-child(2){
-    list-style-image: url(/img/precio.svg);
+div{
+    display: flex;
+    flex-direction: column;
+    background-color: #0a2ff1;
+    width: 23%;
+    border: 1px solid;
+    justify-content: center;
+    text-align: center;
 }
